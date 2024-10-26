@@ -1,0 +1,63 @@
+
+body {
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  justify-content: flex-start; /* Align items to the top */
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #800080; /* Purple background */
+}
+
+.registration-form {
+  text-align: center;
+  background-color: #fff; /* White background for the form */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow for the form */
+  margin-top: 70px; /* Add space at the top to avoid overlap */
+  width: 80%;
+  min-width:400px;/* Adjust width as needed */
+  max-width: 500px; /* Set a maximum width */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+  width: 100%; /* Make input fields take up full width of the form */
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for textboxes */
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green background for button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for button */
+  width: 100%; /* Make button full width */
+}
+
+.heading-container {
+  background-color: white;
+  padding: 0.5em; /* 0.5em padding */
+  margin-bottom: 20px; /* Add space between heading and form */
+  text-align: center; /* Center the heading */
+  width: 100%; /* Make it full width */
+  position: fixed; /* Make it sticky */
+  top: 0; /* Stick to the top */
+  z-index: 10; /* Ensure it stays on top of other content */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow to the title */
+}
